@@ -1,0 +1,19 @@
+# .readthedocs.yaml
+version: 2
+
+# Set the OS, Python version, and other tools you might need
+build:
+  os: ubuntu-24.04
+  tools:
+    python: "3.13"
+  jobs:
+    build:
+      steps:
+        - commands:
+            - pip install -r requirements.txt
+python:
+  install:
+    - method: pip
+      path: .
+sphinx:
+  configuration: docs/source/conf.py
