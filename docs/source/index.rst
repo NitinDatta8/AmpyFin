@@ -1,7 +1,7 @@
 .. AmpyFin documentation master file
 
 Welcome to AmpyFin's Documentation
-==================================
+===================================
 
 .. image:: _static/logo.png
    :align: center
@@ -14,21 +14,29 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
+   :caption: About AmpyFin
+
+   mission
+
+.. toctree::
+   :maxdepth: 3
    :caption: Getting Started
 
    installation
    usage
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Developer & Advanced Users
 
    developer_guide
    api_reference
 
-Indices and tables
-------------------
+----
+
+Indices and Tables
+==================
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`

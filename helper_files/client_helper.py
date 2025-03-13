@@ -293,17 +293,26 @@ statistical_functions = [
     VAR_indicator,
 ]
 
-strategies = (
-    overlap_studies
-    + momentum_indicators
-    + volume_indicators
-    + cycle_indicators
-    + price_transforms
-    + volatility_indicators
-    + pattern_recognition
-    + statistical_functions
-)
+# strategies = (
+#     overlap_studies
+#     + momentum_indicators
+#     + volume_indicators
+#     + cycle_indicators
+#     + price_transforms
+#     + volatility_indicators
+#     + pattern_recognition
+#     + statistical_functions
+# )
 
+strategies = [LINEARREG_SLOPE_indicator,  BBANDS_indicator,
+    DEMA_indicator,
+    EMA_indicator,
+    HT_TRENDLINE_indicator,
+    KAMA_indicator,
+    MA_indicator,
+    MAMA_indicator,
+    MAVP_indicator,
+    MIDPOINT_indicator]
 
 # MongoDB connection helper
 def connect_to_mongo(mongo_url):

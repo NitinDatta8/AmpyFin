@@ -1,0 +1,46 @@
+Our Mission
+=============
+Our mission isn't to invest directly as an institution but to provide services in a transparent manner to help our users make informed decisions in the financial market.
+
+Transparency First
+------------------
+The first step toward transparency is making as many things as possible within our framework **open-source and free to use**. We believe that financial knowledge and innovation should not be restricted by monetary barriers.
+
+Open Source Philosophy
+----------------------
+By keeping AmpyFin open-source, we foster **collaboration, innovation, and transparency**. While many proprietary trading strategies remain locked behind closed doors, we choose to make our tools available for everyone to learn and build upon.
+
+----
+
+How Our Model Works
+====================
+Overview
+---------
+AmpyFin has two sides: an **open-source framework** published on GitHub and a **proprietary system** with enhanced complexity and capabilities.  
+This documentation focuses on the **proprietary system**.
+
+Data Collection
+---------------
+### Web Scraping Intelligence
+Our system uses **advanced web scraping** to track investment companies' portfolios and performance metrics, ranking them based on profitability and strategy effectiveness.
+
+We aggregate data from multiple financial sources, including:
+- **Benzinga**
+- **Marketbeat**
+- **Marketwatch**
+- And others...
+
+This allows us to build a **comprehensive market view**.
+
+Dual Model Approach
+---------------
+
+🚀 **Hyper Model**
+------------------
+- Specifically fine-tuned to trade during **low-volatility** market conditions.
+- Optimized for **steady growth** in stable markets.
+
+🛡️ **Prag Model**
+-----------------
+- Specifically fine-tuned to trade during **high-volatility** market conditions.
+- Designed to **manage risk** and find opportunities during market turbulence.

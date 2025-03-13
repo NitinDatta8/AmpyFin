@@ -1,7 +1,7 @@
 import sys
 
-project_name = "AmpyFin - TestRound"
-experiment_name = "FourthTest"
+project_name = "AmpyFin - TrainRound"
+experiment_name = "2_stocks_10_strats"
 # general parameters
 """
 time_delta_mode can be multiplicative, additive, or balanced.
@@ -45,7 +45,7 @@ The default for mode is live to protect against accidental training
 benchmark asset is what benchmark you want to compare to - typically SPY, QQQ, DOW, or NDAQ.
 """
 
-mode = "live"
+mode = "test"
 
 benchmark_asset = "QQQ"
 """
@@ -65,7 +65,7 @@ test_period_start = "2024-01-15"
 test_period_end = "2024-01-30"
 
 
-train_tickers = []
+train_tickers = ['MSFT', 'GOOGL']
 
 """
 train_time_delta_mode can be multiplicative, additive, or balanced.
